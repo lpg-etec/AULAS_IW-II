@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+</head>
+<body>
+    <script>
+        var num1 = Number(prompt('Num1:'));
+        var num2 = Number(prompt('Num2:'));
+        
+        const add = num1+num2;
+        alert('Adição: ' + add);
+        console.log(add)
+        const sub = num1-num2;
+        alert('Subtração: ' + sub)
+        console.log(sub)
+        const mul = num1*num2;
+        alert('Multiplicação: ' + mul)
+        console.log(mul)
+        const div = num1/num2;
+        alert('Divisão: ' + div)
+        console.log(div)
+        document.writeln('N1: ' + num1 + '\nN2: ' + num2 + '<br>')
+        document.writeln(`Adição: ${add}\nSubtração: ${sub}\nMultiplicação: ${mul}\nDivisão: ${div}<br>`)
+    </script>
+    <h1>Calc</h1>
+    <p id="n"></p>
+    <p id="p"></p>
+</body>
+</html>
