@@ -1,0 +1,17 @@
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+button {
+    padding: .5em;
+}
+
+#main {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
