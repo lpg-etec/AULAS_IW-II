@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0em;
+            padding: 0em;
+        }
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            height: 100vh;
+        }
+        #main * {
+            margin: .5em;
+        }
+        #main button {
+            padding: 1em;
+        }
+    </style>
+    <div id="main">
+        <h1>Salário</h1>
+        <button id="start">Começar</button>
+        <p id="orig"></p>
+        <p id="change"></p>
+        <p id="total"></p>
+    </div>
+</body>
+</html>
