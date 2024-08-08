@@ -1,4 +1,25 @@
-header {
-    background-color: black;
-    color: red;
+.header {
+    background-color: #000;
+    border-bottom: 2px solid #f00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header span {
+    font-size: 2rem;
+    color: #f00;
+    font-weight: 500;
+}
+.header nav {
+    margin-right: 1rem;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 0.5rem;
 }
