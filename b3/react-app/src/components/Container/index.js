@@ -1,9 +1,10 @@
 import styles from './Container.module.css';
 
-function Container() {
+function Container({ children }) {
     return (
-        <div className={styles.banner}>
-        </div>
+        <section className={styles.container}>
+            {children}
+        </section>
     );
 }
 
